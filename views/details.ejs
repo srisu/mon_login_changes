@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Welcome</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="/images/icons/log.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/css/main.css">
+	<link rel="stylesheet" type="text/css" href="/css/util.css">
+<!--===============================================================================================-->
+</head>
+<body>
+	<div class="login-wrap m-t-20 m-b-20">
+		<div class="login-html ">
+			<form class="login-form" action="./updtusr" method="POST">
+			<div class="login-form">
+                    <div class="group">
+                            <label for="cnfmobile" class="label">Confirm Mobile Number</label>
+                            <input name="mobile"  class="input" type="number">
+                        </div>
+        <div class="group">
+                <label for="address" class="label">City Of Residence</label>
+                <input name="address"  class="input" data-type="text">
+            </div>
+            
+        
+            <div class="group">
+                    <label for="age" class="label">Age</label>
+                    <input name="age" class="input" type="number">
+                </div>
+    
+                <div class="group">
+						<label for="license" class="label">Type Of license</label>
+                        <div class="search_categories m-t-15">
+                        <div class="select">
+                                <select name="license">
+                                   <option value="MWOG" selected="selected">MotorCycle Without Gear(Rs.3000) </option>
+                                   <option value="MWG">Motor Vehicle with Gear(Rs. 3500)</option>
+                                   <option value="LMV">Light Motor Vehicle(Rs.5000)</option>
+                                   <option value="HMC">Heavy Motor Vehicle(Rs.7500)</option>
+                                 </select>
+                              </div>
+                            </div>
+					</div>
+                
+                    <div class="group">
+                            <label for="Timings" class="label">Preffered Timings</label>
+                            <div class="search_categories m-t-15">
+                                    <div class="select">
+                                            <select name="timings">
+                                               <option value="9.30" selected="selected">9.30 - 11.30 </option>
+                                               <option value="11.30">11.30 - 1.30</option>
+                                               <option value="3.00">3.00 - 5.00</option>
+                                               <option value="5.00">5.00 - 7.00</option>
+                                             </select>
+                                          </div>
+                                        </div>
+                        </div>
+                        <div class="group m-t-20">
+                                <input type="submit" class="button" value="submit">
+                            </div>
+                        </div>
+                    
+
+
+    </div>
+    </div>
+    </body>
+    </html>
+
+
+
+
+
+
+</body>
+
+<html

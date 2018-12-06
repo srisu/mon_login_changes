@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Login</title>
+	<title>Sign In</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
-	<link rel="icon" type="image/png" href="/images/icons/logo.ico"/>
+	<link rel="icon" type="image/png" href="/images/icons/log.ico"/>
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="/css/main.css">
 	<link rel="stylesheet" type="text/css" href="/css/util.css">
@@ -27,7 +27,16 @@
 						<label for="pass" class="label">Password</label>
 						<input name="pass" type="password" class="input" data-type="password">
 					</div>
-					<div class="group">
+					<div class="search_categories">
+							<div class="select">
+							   <select name="typecheck">
+								  <option value="Student" selected="selected">Student</option>
+								  <option value="Employee">Employee</option>
+								</select>
+							 </div>
+						 </div>		
+					
+					<div class="group m-t-20">
 						<input id="check" type="checkbox" class="check" checked>
 						<label for="check"><span class="icon"></span> Keep me Signed in</label>
 					</div>
@@ -56,7 +65,16 @@
 						<label for="pass" class="label">Email Address</label>
 						<input name="email" type="text" class="input">
 					</div>
-					<div class="group">
+					<div class="search_categories m-t-20">
+							<div class="select">
+							   <select name="type">
+								  <option value="Student" selected="selected">Student</option>
+								  <option value="Employee">Employee</option>
+								</select>
+							 </div>
+						 </div>		
+					
+					<div class="group m-t-20">
 						<input type="submit" class="button" value="Sign Up">
 					</div>
 					<div class="hr"></div>
