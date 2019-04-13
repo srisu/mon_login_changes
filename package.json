@@ -5,10 +5,7 @@
   "scripts": {
     "start": "node ./bin/www"
   },
-  "author": {
-    "name": "Sriram",
-    "email": "sriramguru96gs@gmail.com"
-  },
+  "author": "Sriram",
   "dependencies": {
     "Math": "0.0.1-security",
     "alert-node": "^1.2.2",
